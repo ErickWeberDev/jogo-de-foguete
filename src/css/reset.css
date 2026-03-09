@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Upheaval";
+  src: url(../font/upheavtt.ttf);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Upheaval";
+
+  background-image: url(../img/fundo.jpg);
+}

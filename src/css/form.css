@@ -1,0 +1,35 @@
+.form {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form div {
+  background-color: var(--brown);
+  padding: 20px 30px;
+  border: 1px solid var(--Black);
+  border-radius: 20px;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form div button {
+  padding: 5px 10px;
+  background-color: var(--lightgreen);
+  border: 1px solid var(--Black);
+  border-radius: 5px;
+}
+
+.form div button:hover {
+  background-color: var(--green);
+  cursor: pointer;
+}
+
+.form div input {
+  padding: 5px 8px;
+  border: 1px solid var(--Black);
+  border-radius: 6px;
+}

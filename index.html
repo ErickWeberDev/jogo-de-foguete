@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div action="">
+        <label for="name">Digite seu nome:</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="name..."
+          id="name"
+          required
+          maxlength="15"
+        />
+        <button class="startBTN">start</button>
+      </div>
+    </div>
+
+    <main class="remove">
+      <div class="stage-game">
+        <div class="bar">
+          <h1 class="name"></h1>
+          <h1 class="life"></h1>
+        </div>
+        <div class="foguete">
+          <img src="src/img/foguete.png" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <script src="src/js/script.js"></script>
+    <script src="src/js/class.js"></script>
+  </body>
+</html>

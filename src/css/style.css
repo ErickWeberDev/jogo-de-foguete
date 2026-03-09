@@ -1,0 +1,8 @@
+@import url(reset.css);
+@import url(color.css);
+@import url(form.css);
+@import url(main.css);
+
+.remove {
+  display: none;
+}
